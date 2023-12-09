@@ -1,0 +1,75 @@
+#root {
+  overflow-x: hidden;
+}
+
+.app {
+  background-color: #f7f7f7;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  padding-left: 3vw;
+  background-color: #4527a0;
+  color: white;
+}
+
+.content-section {
+  display: flex;
+  padding: 5vh 2vw 0 2vw;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 100px;
+}
+
+.target {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  opacity: 0;
+  width: 100%;
+}
+
+.card-container {
+  width: 380px;
+  min-width: 380px;
+  background-color: white;
+  border: 2px solid #e5e5e5;
+  border-radius: 3%;
+  box-shadow: 2px 2px 2px lightgray;
+  padding: 20px 15px;
+}
+
+.card-container .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0;
+}
+
+.card-container .sub-title {
+  margin-bottom: 0;
+  margin-top: 0.1rem;
+  color: gray;
+}
+
+
+@keyframes loadingAnimation {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.loading {
+  animation: loadingAnimation 0.7s infinite;
+}
