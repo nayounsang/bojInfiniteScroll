@@ -13,8 +13,18 @@
   align-items: center;
   height: 12vh;
   padding-left: 3vw;
+  padding-right: 3vw;
   background-color: #4527a0;
   color: white;
+  justify-content: space-between;
+}
+
+.header h3{
+  cursor: pointer;
+}
+
+.header h3:hover{
+  animation: blinkingAnimation 0.7s infinite;
 }
 
 .content-section {
@@ -58,7 +68,7 @@
 }
 
 
-@keyframes loadingAnimation {
+@keyframes blinkingAnimation {
 
   0%,
   100% {
@@ -71,5 +81,5 @@
 }
 
 .loading {
-  animation: loadingAnimation 0.7s infinite;
+  animation: blinkingAnimation 0.7s infinite;
 }
