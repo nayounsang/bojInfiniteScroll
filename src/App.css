@@ -8,6 +8,12 @@
   min-height: 100vh;
 }
 
+@media (max-width: 500px) {
+  .app{
+    font-size: 0.55rem;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -19,12 +25,22 @@
   justify-content: space-between;
 }
 
+@media (max-width: 500px) {
+  .header{
+    height: 6vh;
+  }
+}
+
+
 .header h3{
   cursor: pointer;
 }
 
-.header h3:hover{
-  animation: blinkingAnimation 0.7s infinite;
+
+@media (hover:hover) {
+  .header h3:hover{
+    animation: blinkingAnimation 0.7s infinite;
+  }
 }
 
 .content-section {
@@ -34,6 +50,14 @@
   flex-wrap: wrap;
   position: relative;
   gap: 100px;
+  
+}
+
+@media (max-width: 500px) {
+  .content-section {
+    gap: 40px;
+    padding: 2.5vh 4vw 0 4vw;
+  }
 }
 
 .target {
@@ -52,6 +76,12 @@
   border-radius: 3%;
   box-shadow: 2px 2px 2px lightgray;
   padding: 20px 15px;
+}
+
+@media (max-width: 500px) {
+  .card-container{
+    min-width: 200px;
+  }
 }
 
 .card-container .title {
