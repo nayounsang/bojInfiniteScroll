@@ -1,3 +1,10 @@
+# homepage
+https://nayounsang.github.io/bojInfiniteScroll/
+
+# reference
+https://tech.kakaoenterprise.com/149
+의 코드를 보고 분석하며 개발했습니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
