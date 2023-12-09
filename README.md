@@ -1,4 +1,4 @@
-# homepage
+# homepage(반응형)
 https://nayounsang.github.io/bojInfiniteScroll/
 
 # reference
